@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <div class="container">
+        <form id="form-cadastro">
+            <div class="form-campo">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Nome completo">
+            </div>
+            <div class="form-campo">
+                <label for="CPF">CPF:</label>
+                <input type="text" id="CPF" name="cpf" placeholder="000.000.000-00">
+            </div>
+            <div class="form-campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 0 0000-0000">
+            </div>
+            <div class="form-campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+            </div>
+            <div class="form-campo">
+                <label for="cep">CEP:</label>
+                <input type="text" id="CEP" name="cep" placeholder="00000-000">
+            </div>
+            <div class="form-campo">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="espaco"></div>
+    <footer>
+        <p>
+            2024 &copy; FormS - Todos os direitos reservados
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
